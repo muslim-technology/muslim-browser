@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" log --oneline --all)",
+      "WebSearch",
+      "WebFetch(domain:brave.com)",
+      "WebFetch(domain:duckduckgo.com)",
+      "WebFetch(domain:www.mozilla.org)",
+      "WebFetch(domain:support.muslimpro.com)",
+      "Bash(powershell -Command \"\\(Get-Content ''D:\\\\muslim-browser\\\\muslim-browser\\\\PRIVACY_POLICY.md'' -Raw | Measure-Object -Word\\).Words\")",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" status)",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" diff --stat)",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" add ABOUT.md DATA_SAFETY.md PRIVACY_POLICY.md)",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" commit -m \"$\\(cat <<''EOF''\nAdd Play Store compliance documentation\n\n- Add ABOUT.md: App description with Islamic features and custom AI\n- Add PRIVACY_POLICY.md: Streamlined privacy policy \\(3,171 words\\)\n  - Industry-standard length matching DuckDuckGo/Firefox Focus\n  - Correct terminology \\(pseudonymous vs anonymous\\)\n  - Clear disclosure of harmful site blocking \\(default\\) vs ad blocking \\(optional\\)\n  - On-device Haram Blur AI with zero data collection\n- Add DATA_SAFETY.md: Complete Play Store Data Safety reference\n  - 8-part structure with exact Play Store form answers\n  - Clear user control and settings disclosure\n  - Multi-layer content filtering explained\n\nAll documents comply with Google Play Store Data Safety requirements,\nGDPR, CCPA, and COPPA regulations.\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C \"D:\\\\muslim-browser\\\\muslim-browser\" push)"
+    ]
+  }
+}

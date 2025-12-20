@@ -1,6 +1,6 @@
 # Privacy Policy for Muslim AI Browser
 
-**Last Updated: December 19, 2024**
+**Last Updated: December 20, 2025**
 
 ## 1. Introduction
 
@@ -24,9 +24,9 @@ We believe in **maximum privacy with minimal data collection**:
 | **Bookmarks** | ✅ Yes | 📱 Your Device Only | ❌ Never | Quick access to saved sites |
 | **App Settings** | ✅ Yes | 📱 Your Device Only | ❌ Never | Your preferences |
 | **AI Analysis Data** | ✅ Yes | 📱 Your Device Only | ❌ Never | Content filtering |
-| **Pseudonymous Analytics** | ✅ Yes | ☁️ Firebase (Google) | ⚠️ Google Only | App improvement |
-| **Crash Reports** | ✅ Yes | ☁️ Firebase (Google) | ⚠️ Google Only | Bug fixes |
-| **Device Token (FCM)** | ✅ Yes | ☁️ Firebase (Google) | ⚠️ Google Only | Push notifications |
+| **Pseudonymous Analytics** | ✅ Yes |  Firebase (Google) |  Google Only | App improvement |
+| **Crash Reports** | ✅ Yes |  Firebase (Google) |  Google Only | Bug fixes |
+| **Device Token (FCM)** | ✅ Yes |  Firebase (Google) |  Google Only | Push notifications |
 | **Personal Info** | ❌ Never | N/A | ❌ Never | N/A |
 | **Browsing URLs** | ❌ Never sent | 📱 Device only | ❌ Never | N/A |
 
@@ -58,8 +58,8 @@ The following information is stored **ONLY on your device** and is **NEVER sent 
 ### 4.4 AI Processing Data
 - **What**: Results from on-device content analysis
 - **How it works**:
-  - AI analyzes images/videos as they load
-  - Detects inappropriate content in real-time
+  - On device AI analyzes images/videos as they load
+  - Detects inappropriate content in real-time 100% locally (not server)
   - Data discarded from memory instantly after use
 - **Privacy**: Never logged, never stored permanently, never transmitted
 
@@ -79,9 +79,9 @@ The following information is stored **ONLY on your device** and is **NEVER sent 
 - Your device's lock screen security
 - Automatic deletion when you uninstall the app
 
-## 5. Information Collected via Firebase (Google)
+## 5. Information Collected via (Third-Party SDK)  Firebase (Google)
 
-We use **Google Firebase** services for app functionality. This involves sharing minimal data with Google:
+We use **Google Firebase** services for app functionality (Analytics & Crash Reporting). This involves sharing minimal data with Google:
 
 ### 5.1 Firebase Analytics (Anonymous Usage Statistics)
 
@@ -375,7 +375,7 @@ We implement multiple layers of security to protect your data:
 
 ### Manual Deletion:
 - **Local Data**: Settings → Privacy → Clear Browsing Data
-- **Firebase Data**: Email privacy@muslimbrowser.com with "Data Deletion Request"
+- **Firebase Data**: Email muslimbrowser1@gmail.com with "Data Deletion Request"
 
 ## 13. Your Rights and Choices
 
@@ -426,19 +426,11 @@ You have complete control over your data:
 - App will still work for basic browsing
 
 ### 13.4 Website Data Control
-
-🍪 **Clear Cookies**
-- Settings → Privacy → Clear Cookies
-
-💾 **Clear Cache**
-- Settings → Privacy → Clear Cache
-
-🔒 **Private Browsing**
-- Use Incognito Mode for browsing without saving history
+- User can Clear Cookies, Cache, Browsing history
 
 ## 14. Children's Privacy
 
-### Age Rating: **13+**
+### Age Rating: **The App is intended for a general audience. We do not intentionally target or advertise to children under the age of 13, nor do we collect information from them.**
 
 Muslim AI Browser is suitable for teenagers and adults. We are committed to protecting children's privacy:
 
@@ -513,7 +505,7 @@ We may update this Privacy Policy from time to time. When we do:
 **Your continued use of the App after changes constitutes acceptance of the updated policy.**
 
 ### Version History:
-- **v1.0.0** (December 19, 2024): Initial release
+- **v1.0.0** (December 20, 2025): Initial release
 
 ## 18. Legal Basis for Processing (GDPR)
 
@@ -529,7 +521,7 @@ For users in the European Economic Area:
 ## 19. Data Protection Officer
 
 For privacy inquiries:
-- **Email**: privacy@muslimbrowser.com
+- **Email**: muslimbrowser1@gmail.com
 - **Response Time**: Within 30 days
 - **Escalation**: If unsatisfied, contact your local data protection authority
 
@@ -559,8 +551,8 @@ By using Muslim AI Browser, you consent to:
 
 For any privacy-related questions, concerns, or requests:
 
-📧 **Email**: privacy@muslimbrowser.com
-🌐 **Website**: https://muslimbrowser.github.io
+📧 **Email**: muslimbrowser1@gmail.com
+🌐 **Website**: https://muslimbrowser.com
 ⏱️ **Response Time**: Within 30 days
 
 ### What to Include in Your Email:
@@ -580,7 +572,7 @@ For any privacy-related questions, concerns, or requests:
 5. ✅ **No tracking**: We don't track what websites you visit
 6. ✅ **Transparent**: This policy explains everything we collect
 7. ✅ **Your control**: Clear all data anytime from Settings
-8. ✅ **Safe for families**: COPPA compliant, suitable for ages 13+
+8. ✅ **Safe for families**: COPPA compliant
 9. ✅ **Compliant**: Meets GDPR, CCPA, Play Store requirements
 10. ✅ **Responsive**: Contact us anytime at privacy@muslimbrowser.com
 
@@ -589,9 +581,3 @@ For any privacy-related questions, concerns, or requests:
 **We respect your privacy. We protect your data. We serve the Muslim community.**
 
 *Browse safely. Browse Islamically. Browse privately.*
-
----
-
-For more information:
-- [About Muslim AI Browser](ABOUT.md)
-- [Data Safety & Security Policy](DATA_SAFETY_AND_SECURITY.md) - Complete security and Play Store data safety disclosure

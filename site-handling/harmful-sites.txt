@@ -61,3 +61,4 @@
 0.0.0.0 www.bwin.com
 0.0.0.0 pinnacle.com
 0.0.0.0 www.pinnacle.com
+0.0.0.0 7555bdt.com
